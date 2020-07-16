@@ -1,31 +1,28 @@
 html
 {
-	background-color: #f7f6f4;
+	background-color: #ffffff;
 }
 
 h1
 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #7C2E3D;
 	text-align: center;
-	font-family: Helvetica;
-	font-weight: 300;
-	font-size: 2em;
 }
 
 .about
 {
-	text-align: justify;
-	font-family: Helvetica;
-	font-weight: 300;
-	color: #575757;
+	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 1.8;
+	text-align: center;
 }
 
 a
 {
-	font-family: Helvetica;
-	color: #444444;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #7C2E3D;
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: 750;
 }
 
 
