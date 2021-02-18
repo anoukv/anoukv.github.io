@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Is it Saturday yet?</title>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="textblock">
+    <div class="memoji">
+      <img id="face" src="no.png" width=150px height=150px>
+    </div>
+
+    <h1>
+            Is it saturday yet?
+    </h1>
+    <p class="about" id="foo">
+      No...
+    </p class="about">
+  </div>
+</body>
+
+<script>
+  var today = new Date();
+
+  if(today.getDay() == 6) // TODO CHANGE TO 6
+  {
+    document.getElementById("foo").textContent = "YES!";
+    document.getElementById("face").src = 'yes.png';
+  };
+</script>
+
+</html>
